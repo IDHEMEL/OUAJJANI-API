@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ElMehdi",
+    "password": null,
+    "database": "ElMehdiOUAJJANI",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "ElMehdi",
+    "password": null,
+    "database": "ElMehdiOUAJJANI",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ElMehdi",
+    "password": null,
+    "database": "ElMehdiOUAJJANI",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
