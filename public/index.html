@@ -63,7 +63,7 @@
           let response = await fetch('http://localhost:3000/articles/'+id );
           let data = await response.text()
           let obj = JSON.parse(data);
-          document.getElementById('lstArticle').innerHTML='<a class="btn btn-light" onclick="setpage('+localPage+')"> << Back </a> <br> <br>';
+          document.getElementById('lstArticle').innerHTML='<a class="btn btn-success" onclick="setpage('+localPage+')"> << Back </a> <br> <br>';
           document.getElementById('padding').innerHTML='';
           document.getElementById('Articles').innerHTML=""
           obj.map( item=>{
